@@ -71,6 +71,24 @@
       },
       "type": "object"
     },
+    "balancer": {
+      "description": "Apache/HAProxy request parameters",
+      "properties": {
+        "tcpv4-port": {
+          "allOf": [{
+            "$ref": "#/definitions/tcpv4port"
+          }, {
+            "description": "Start allocating ports at this value, going upward"
+          }]
+        },
+        "haproxy-server-check-path": {
+          "description": "Check health of Zopes (set 'httpchk' HAProxy option)",
+          "default": "/",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
     "frontend": {
       "description": "Front-end slave instance request parameters",
       "properties": {
