@@ -739,6 +739,9 @@ $CFG->admin = 'admin';
 // $CFG->debug = (E_ALL | E_STRICT);   // === DEBUG_DEVELOPER - NOT FOR PRODUCTION SERVERS!
 // $CFG->debugdisplay = 1;             // NOT FOR PRODUCTION SERVERS!
 //
+$CFG->debug = 6143; 
+$CFG->debugdisplay = 1;
+//
 // You can specify a comma separated list of user ids that that always see
 // debug messages, this overrides the debug flag in $CFG->debug and $CFG->debugdisplay
 // for these users only.
