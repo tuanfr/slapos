@@ -19,7 +19,7 @@ data-dir = ${moodle-directory:data}
 
 #php.ini parameters
 php.memory_limit = 512M
-php.date.timezone = Europe/Paris
+php.date.timezone = Asia/Ho_Chi_Minh
 php.upload_max_filesize = 10240M
 php.post_max_size = 10240M
 php.session.cookie_secure = True
