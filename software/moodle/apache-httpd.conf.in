@@ -1,5 +1,3 @@
-
-
 <VirtualHost *:{{ parameter_dict['port'] }}>
   ServerAdmin admin@example.com
   DocumentRoot {{ parameter_dict['document-root'] }}
