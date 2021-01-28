@@ -34,7 +34,7 @@ $CFG = new stdClass();
 //=========================================================================
 // 1. DATABASE SETUP
 //=========================================================================
-// First, you need to configure the database where all Moodle data       //
+// First, you need to configure the database where all Moodle data de      //
 // will be stored.  This database must already have been created         //
 // and a username/password created to access it.                         //
 
@@ -738,9 +738,6 @@ $CFG->admin = 'admin';
 // @ini_set('display_errors', '1');    // NOT FOR PRODUCTION SERVERS!
 // $CFG->debug = (E_ALL | E_STRICT);   // === DEBUG_DEVELOPER - NOT FOR PRODUCTION SERVERS!
 // $CFG->debugdisplay = 1;             // NOT FOR PRODUCTION SERVERS!
-//
-$CFG->debug = 6143; 
-$CFG->debugdisplay = 1;
 //
 // You can specify a comma separated list of user ids that that always see
 // debug messages, this overrides the debug flag in $CFG->debug and $CFG->debugdisplay
